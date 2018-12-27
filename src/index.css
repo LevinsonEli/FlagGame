@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #e9eff9;
+}
+
+button {
+  font-size: 1em;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  color: black;
+}
+
+.guess {
+  background-color: #6b93d6;
+  text-align: center;
+  text-decoration: none;
+}
+
+.score {
+  font-size: 1.3em;
+}
+
+.score span {
+  color: green;
+  font-weight: 600;
+}
+
+.score button {
+  background: rgb(241, 137, 0);
+  
+  margin: 0 10px;
+}
+button:hover {
+  border: 1px solid black;
+  color: wheat;
+}
